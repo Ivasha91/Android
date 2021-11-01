@@ -3,4 +3,18 @@
     <string name="button">Button</string>
     <string name="bye">bye</string>
     <string name="hello">Hello</string>
+    <string name="poem_str_no_number">poem_str_</string>
+    <string name="poem_str_1">Ты видел деву на скале</string>
+    <string name="poem_str_2">В одежде белой над волнами</string>
+    <string name="poem_str_3">Когда, бушуя в бурной мгле,</string>
+    <string name="poem_str_4">Играло море с берегами,</string>
+    <string name="poem_str_5">Когда луч молний озарял</string>
+    <string name="poem_str_6">Ее всечасно блеском алым</string>
+    <string name="poem_str_7">И ветер бился и летал</string>
+    <string name="poem_str_8">С ее летучим покрывалом?</string>
+    <string name="poem_str_9">Прекрасно море в бурной мгле</string>
+    <string name="poem_str_10">И небо в блесках без лазури;</string>
+    <string name="poem_str_11">Но верь мне: дева на скале</string>
+    <string name="poem_str_12">Прекрасней волн, небес и бури.</string>
+    <string name="poem_str_13">/-----------------------------/</string>
 </resources>
