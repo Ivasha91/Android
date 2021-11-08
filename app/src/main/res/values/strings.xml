@@ -17,4 +17,10 @@
     <string name="poem_str_11">Но верь мне: дева на скале</string>
     <string name="poem_str_12">Прекрасней волн, небес и бури.</string>
     <string name="poem_str_13">/-----------------------------/</string>
+    <string name="secondactivity">SecondActivity</string>
+    <string name="next">NEXT</string>
+    <string name="Privet">Привет</string>
+    <string name="this_is">это</string>
+    <string name="b1">B1</string>
+    <string name="b2">b2</string>
 </resources>

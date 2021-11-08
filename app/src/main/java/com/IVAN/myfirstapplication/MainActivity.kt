@@ -1,14 +1,20 @@
 package com.IVAN.myfirstapplication
 
+import android.content.Intent
+import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+import android.widget.Button
 import android.widget.TextView
+import android.widget.Toast
+import androidx.activity.result.contract.ActivityResultContracts
 
 private const val TAG = "MainActivity"
 private const val MY_LOG_TAG = "MyLog"
 
-
+private  const val KEY = "HELLO_KEY"
+private const val GET_FILE_REQUEST=1
 class MainActivity : AppCompatActivity() {
 
     private var strNum = 1
@@ -21,6 +27,40 @@ class MainActivity : AppCompatActivity() {
         Log.d(MY_LOG_TAG, "Стихотворение:")
         StrChange()
 
+
+        val nextButton: Button = findViewById(R.id.next_button)
+
+//        переходл и передача данных на вторую активити
+        val intent= Intent(this, SecondActivity::class.java)
+        intent.putExtra(KEY, "Hello from MainActivity!")
+
+//        открытие любой ссылки
+//        val link = Uri.parse("https://odin.study/")
+//        val intent = Intent(Intent.ACTION_VIEW, link)
+
+//        открытие файла
+//        val intent = Intent(Intent.ACTION_GET_CONTENT)
+//        intent.type="file/*"
+//        val resultLauncher =
+//            registerForActivityResult(ActivityResultContracts.StartActivityForResult()) { result->
+//            if(result.resultCode = RESULT_OK)
+//                result.data?.data.toString() // путь к файлу
+//                else
+//                    Toast.makeText(this, "Ничего не выбрано", Toast.LENGTH_LONG).show()
+//            }
+
+
+
+        nextButton.setOnClickListener {
+//            для открытия файла
+//            resultLauncher.launch(intent)
+
+//            для открытия файлов раньше
+//            startActivityForResult(intent, GET_FILE_REQUEST)
+
+//            для перехода и ссылок
+            startActivity(intent)
+        }
     }
 
     override fun onStart() {
