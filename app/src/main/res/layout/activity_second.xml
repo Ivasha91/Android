@@ -28,7 +28,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
     <TextView
-        style="@style/Theme.MyFistApplication.TextView"
+        style="@style/Theme.MyFistApplication.TextView.TextAlign"
         android:id="@+id/textView2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"

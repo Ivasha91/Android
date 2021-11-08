@@ -17,11 +17,17 @@
 
 
 <!--        мой стиль для всех элементов с текстом-->
-        <item name="android:textAlignment">viewEnd</item>
+<!--        <item name="android:textAlignment">viewEnd</item>-->
+
+        <item name="android:textViewStyle">@style/Theme.MyFistApplication.TextView</item>
     </style>
 
     <style name="Theme.MyFistApplication.TextView" parent="Widget.MaterialComponents.TextView">
         <item name="android:textSize">30sp</item>
+    </style>
+
+    <style name="Theme.MyFistApplication.TextView.TextAlign" parent="Theme.MyFistApplication.TextView">
+        <item name="android:textAlignment">center</item>
     </style>
 
     <style name="Theme.MyFirstApplication.Button" parent="Widget.MaterialComponents.Button">
